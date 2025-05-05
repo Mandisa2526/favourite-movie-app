@@ -1,0 +1,40 @@
+POST http://localhost:5000/routes/auth/register
+Content-Type: application/json
+
+{
+  "email": "Tuseexample@gmail.com",
+  "password": "2password12341"
+}
+### Auth
+POST http://localhost:5000/routes/auth/login
+Content-Type: application/json
+
+{
+  "email": "Tuseexample@gmail.com",
+  "password": "2password12341"
+}
+
+### movie search
+GET http://localhost:5000/routes/movies/search?query=wow
+
+### add
+### Add a Movie to Favorites
+POST http://localhost:5000/routes/favourite
+Content-Type: application/json
+Authorization: Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTczMjc2OTQ5NiwiZXhwIjoxNzMyNzczMDk2fQ.OHgorJQr2Z3ePxWE2d72WpTJ5-Jj794EHHac1x_p6A0"
+{
+  "movieId": 1,
+  "title": "WOW",
+  "releaseDate": "2023-06-29",
+  "posterPath": "/8hTCYeeKm4oD6vbWZaKmp8qu5mX.jpg"
+}
+
+
+### Fetch Favorites
+GET http://localhost:5000/routes/favourite
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTczMjc2OTQ5NiwiZXhwIjoxNzMyNzczMDk2fQ.OHgorJQr2Z3ePxWE2d72WpTJ5-Jj794EHHac1x_p6A0
+### Delete a Favorite
+DELETE http://localhost:5000/routes/favourite/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTczMjc2OTQ5NiwiZXhwIjoxNzMyNzczMDk2fQ.OHgorJQr2Z3ePxWE2d72WpTJ5-Jj794EHHac1x_p6A0
