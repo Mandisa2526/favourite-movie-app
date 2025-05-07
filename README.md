@@ -43,23 +43,6 @@ CineScope is a modern movie streaming platform designed to provide users with a 
 
 ## 📅 Project Timeline
 
-**Start Date:** April 7, 2025  
-**End Date:** April 18, 2025
-
-
-## 👥 Contributors
-
-| Name          | Role                     |
-|---------------|--------------------------|
-| **Khulekani mtshali** | Frontend Lead            |
-| **Matimu Baloyi**    | Backend Lead, DevOps     |
-| **Luyanda Xhakaza**   | Database Architect       |
-| **Arise Rifuwo Dzamukeri**     | QA Lead, UI/UX Designer  |
-| **Dembe Makhari**     | UI/UX Designer           |
-| **Masingita Otis Maluleke** | Fullstack Developer      |
-
----
-
 ## Architecture
 
 ### End-to-End Data Flow Diagram
