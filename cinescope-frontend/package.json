@@ -17,7 +17,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/Mandisa2526/favourite-movie-app",
+  "homepage": "https://mandisa2526.github.io/favourite-movie-client/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
